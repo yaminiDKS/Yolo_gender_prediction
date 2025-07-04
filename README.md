@@ -32,4 +32,3 @@ gender-prediction-yolov11/
 ├── requirements.txt
 ├── README.md
 └── app.py (optional Streamlit interface)
----
