@@ -15,20 +15,4 @@ This project integrates **YOLOv11** for accurate face detection and a **CNN-base
 - 📦 Easy to integrate into larger surveillance, marketing, or analytics pipelines
 
 ---
-gender-prediction-yolov11/
-│
-├── weights/
-│   ├── yolov11-face.pt            # Pretrained YOLOv11 face detection model
-│   └── gender_model.pth           # Pretrained gender classifier
-│
-├── src/
-│   ├── detector.py                # YOLOv11 face detection
-│   ├── gender_classifier.py       # Gender prediction logic
-│   └── main.py                    # Entry point for image/video inference
-│
-├── utils/
-│   └── preprocessing.py           # Cropping, resizing, normalization
-│
-├── requirements.txt
-├── README.md
-└── app.py (optional Streamlit interface)
+
