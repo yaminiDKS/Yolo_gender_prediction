@@ -1,0 +1,8 @@
+streamlit
+ultralytics>=8.0.0
+deepface>=0.0.93
+opencv-python-headless  # headless OpenCV (for servers/Streamlit Cloud)
+numpy
+Pillow
+tensorflow>=2.11.0     # required backend for DeepFace (can also use torch, but TF is default)
+keras>=2.11.0
