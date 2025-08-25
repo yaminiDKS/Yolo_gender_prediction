@@ -1,8 +1,18 @@
-streamlit
-ultralytics>=8.0.0
-deepface>=0.0.93
-opencv-python-headless  # headless OpenCV (for servers/Streamlit Cloud)
-numpy
-Pillow
-tensorflow>=2.11.0     # required backend for DeepFace (can also use torch, but TF is default)
-keras>=2.11.0
+# Streamlit + headless OpenCV
+streamlit>=1.34
+opencv-python-headless>=4.8
+
+# Ultralytics YOLO (CPU ok)
+ultralytics>=8.2.0
+# (Optional but recommended to be explicit)
+torch>=2.2.0; python_version < "3.12"
+
+# DeepFace + compatible stack (Keras 2.x, TF 2.15)
+deepface==0.0.93
+retinaface==0.0.14
+tensorflow==2.15.0
+keras==2.15.0
+
+# Image / math utils
+numpy>=1.24
+Pillow>=9.5
